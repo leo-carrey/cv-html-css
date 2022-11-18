@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body
+{
+    background: #f9f9f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 100vh;
+}
+.container
+{
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    background: #fff;
+    margin: 50px;
+    box-shadow: 0 50px 75px rgba(0,0,0,0.1);
+    border-left: 50px solid #fff;
+    border-right: 50px solid #fff;
+}
+.container .top
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 40px;
+    padding-bottom: 0;
+}
+.container .top .imgBx
+{
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.container .top .imgBx .box
+{
+    position: relative;
+    width: 70%;
+    min-width: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    aspect-ratio: 1;
+}
+.container .top .imgBx .box img
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.container .top .profileText
+{
+    position: relative;
+    padding: 40px;
+    display: flex;
+    align-items: center;
+}
+.container .top .profileText h3
+{
+    font-size: 5em;
+    letter-spacing: 0.1em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #333;
+}
+.container .top .profileText h3 span
+{
+    position: relative;
+    font-size: 0.2em;
+    font-weight: 300;
+    top: -10px;
+}
+.container .contentBox
+{
+    position: relative;
+    min-height: 500px;
+    display: grid;
+    grid-template-columns: 1.3fr 2fr;
+    padding: 0 40px 40px;
+}
+.container .contentBox h3
+{
+    border-left: 4px solid #fe7062;
+    padding-left: 10px;
+    line-height: 1em;
+    font-weight: 600;
+    color: #333;
+    letter-spacing: 0.1em;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+.container .contentBox ul
+{
+    position: relative;
+    margin: 10px 0;
+}
+.container .contentBox ul li
+{
+    list-style: none;
+    margin: 25px 0;
+    line-height: 1em;
+    color: #333;
+    cursor: pointer;
+    display: flex;
+}
+.container .contentBox ul li ion-icon
+{
+    font-size: 1.2em;
+    margin-right: 10px;
+    color: #444bf7;
+}
+.container .contentBox ul.Parcour-Pro li 
+{
+    flex-direction: column;
+    margin: 25px 0;
+}
+.année
+{
+    color: #444bf7;
+}
+h5
+{
+    color: #333;
+    font-weight: 500;
+    margin: 5px 0;
+}
+.container .contentBox ul.centre
+{
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.container .contentBox ul.centre li
+{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin: 20px 10px;
+}
+.container .contentBox ul.centre li .icon
+{
+    position: relative;
+    width: 40px;
+    height: 40px;
+    background: #fe7062;
+    color: #fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container .contentBox ul.centre li .icon ion-icon
+{
+    color: #fff;
+    margin-right: 0;
+}
+.rightSide
+{
+    padding-left: 40px;
+}
+.expérience .box
+{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.expérience .box .year
+{
+    min-width: 150px;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    position: relative;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.expérience .box .year h5
+{
+    color: #333;
+    font-weight: 500;
+    font-size: 18px;
+}
+.expérience .box .year h5:nth-child(1)
+{
+    color: #444bf7;
+}
+.expérience .box .imgEx img
+{
+    border-radius: 15px;
+    height: 200px;
+}
+.expérience .box .year p
+{
+    color: #333;
+    font-weight: 400;
+    font-size: 14px;
+}
