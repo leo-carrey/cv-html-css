@@ -181,7 +181,8 @@ h5
     margin-right: 10px;
     position: relative;
     display: grid;
-    grid-template-columns: 1fr;
+    grid-template-co
+    lumns: 1fr;
 }
 .expérience .box .year h5
 {
@@ -203,4 +204,20 @@ h5
     color: #333;
     font-weight: 400;
     font-size: 14px;
+}
+.box > img {
+    transition: 2s;
+}
+.box > img:hover {
+    transform: scale(3);
+    animation: rotator 2s infinite;
+}
+
+@keyframes rotator {
+    0% {
+        rotate: 0deg;
+    }
+    100% {
+        rotate: 360deg;
+    }
 }
